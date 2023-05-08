@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <div>{counter}</div>
-      <Button value="add 1" fn={add} />
+      <div className='display'>{counter}</div>
+      <Button value="add 1" fn={add}/>
       <Button value="reset" fn={reset} />
     </div>
   );
