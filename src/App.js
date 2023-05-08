@@ -7,12 +7,10 @@ function App() {
 
   const add = () => {
     setCounter(counter + 1);
-    console.log(counter);
   };
 
   const reset = () => {
     setCounter(0);
-    console.log(counter);
   };
 
   return (
