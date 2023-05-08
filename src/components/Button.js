@@ -1,9 +1,9 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({value}) => {
     return (
         <div>
-            hello world!
+            <input type="button" value={value}></input>
         </div>
     );
 };
