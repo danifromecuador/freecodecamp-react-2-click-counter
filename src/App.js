@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>0</div>
+      <div>{counter}</div>
       <Button value="add 1" fn={add} />
       <Button value="reset" fn={reset} />
     </div>
